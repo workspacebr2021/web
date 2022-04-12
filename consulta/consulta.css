@@ -1,0 +1,29 @@
+.container {
+    /* max-width: 960px; */
+    /* max-width: 1080px; */
+}
+
+#logo:hover {
+    cursor: pointer;
+}
+
+
+/* #home-button {
+    color: rgb(217, 76, 102) !important;
+} */
+
+#home-button:hover {
+    font-weight: bold;
+}
+
+#about-button:hover {
+    font-weight: bold;
+}
+
+.needs-validation #invalidpassword {
+    margin-bottom: 8%;
+}
+
+#rateio {
+    margin-top: 50px;
+}
