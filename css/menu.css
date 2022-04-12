@@ -1,0 +1,35 @@
+.fundo {
+    background: rgb(78, 169, 243);
+}
+
+.textoMenu {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    /* legal ↓ */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+a {
+    color: rgb(150, 148, 148);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    width: 400px;
+    padding: 5px 35px;
+    background: rgb(112, 185, 245, 0.8);
+    margin: 0;
+    /* auto;*/
+    text-align: center;
+    /* border-style: outset; */
+}
+
+.verde {
+    color: rgb(0, 255, 179)
+}
+
+.medio {
+    font-size: 64px;
+}

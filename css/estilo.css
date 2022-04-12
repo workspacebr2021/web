@@ -1,0 +1,448 @@
+    body {
+        font: 14px;
+        color: #fff;
+        /* background-color: #677286; */
+        /* background-color: #E6E6E6; */
+        background-color: white;
+        /* font-family: 'Courier New', Courier, monospace; */
+        /* font-family: 'Times New Roman', Times, serif; */
+        /* font-family: Arial, Helvetica, sans-serif; */
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        /* font-weight: bold; */
+    }
+    
+    .titulo {
+        /* text-shadow: black 0.1em 0.1em 0.2em; */
+        text-shadow: white 0.1em 0.1em 0.2em;
+        color: #585858;
+    }
+    
+    .select {
+        cursor: pointer;
+    }
+    
+    .vdata {
+        box-align: left;
+        width: 400px;
+        padding: 5px;
+        background: #2fdb3a;
+        margin: 0;
+        /* auto;*/
+        text-align: left;
+        color: #fff;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .format {
+        width: 400px;
+        padding: 5px;
+        background: #FFFFFF;
+        margin: 0;
+        /* auto;*/
+        text-align: center;
+        color: #A4A4A4;
+        border-style: outset;
+    }
+    /* previous */
+    
+    .ex1 {
+        box-align: left;
+        width: 15%;
+        /*460px;*/
+        padding: 5px;
+        background: #1e90ff;
+        margin: 0;
+        /* auto;*/
+        text-align: center;
+        color: #fff;
+    }
+    
+    .ev3 {
+        cursor: pointer;
+    }
+    
+    .c2003,
+    .c2007,
+    .c1997,
+    .cxp,
+    .c2010,
+    .c2013,
+    .c2016 {
+        cursor: pointer;
+    }
+    
+    .cjan,
+    .cfev,
+    .cmar,
+    .cabr,
+    .cmai,
+    .cjun,
+    .cjul,
+    .cago,
+    .cset,
+    .cout,
+    .cnov,
+    .cdez {
+        cursor: pointer;
+    }
+    
+    .cpoli1,
+    .cpoli2,
+    .cpoli3,
+    .cpoli4,
+    .cpoli5,
+    .cpoli6,
+    .cpoli7,
+    .cpoli8,
+    .cpoli9,
+    .cpoli10,
+    .cpoli11,
+    .cpoli12,
+    .cpoli13,
+    .cpoli14 {
+        cursor: pointer;
+    }
+    /*p, input{
+
+    width: 480px;
+    padding: 5px;
+    background: #000;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    border:5px solid #ccc;
+    margin-top: 10px;
+
+}*/
+    
+    .versao {
+        width: 100px;
+        padding: 5px;
+        /* background: #87888a; */
+        background: #FFFFFF;
+        margin: 0;
+        /* auto;*/
+        text-align: center;
+        /* color: #fff; */
+        color: #A4A4A4;
+        /* border-style: solid; */
+        /* border-style: groove; */
+        border-style: outset;
+        /* border-color: #585858; */
+    }
+    /* .versao2{
+    
+    width: 100%;
+    padding: 5px;
+    background:#87888a;
+    margin: 0;auto;
+    text-align: center;
+    color:#fff;
+} */
+    
+    .versao2 {
+        width: 400px;
+        padding: 5px;
+        /* background: #87888a; */
+        background: #FFFFFF;
+        margin: 0;
+        /* auto;*/
+        text-align: center;
+        /* color: #fff; */
+        color: #A4A4A4;
+        border-style: outset;
+    }
+    /* .versao3{
+    
+    width: 400px;
+    padding: 5px;
+    background:#87888a;
+    margin: 0;auto;
+    text-align: center;
+    color:#fff;
+} */
+    
+    .versao4 {
+        /* width: 150px; */
+        width: 220px;
+        padding: 5px;
+        /* background: #87888a; */
+        background: #FFFFFF;
+        margin: 0;
+        /* auto;*/
+        text-align: center;
+        /* color: #fff; */
+        color: #A4A4A4;
+        border-style: outset;
+    }
+    
+    .v1997,
+    .vxp,
+    .v2003,
+    .v2007,
+    .v2010,
+    .v2013,
+    .v2016 {
+        box-align: left;
+        width: 100px;
+        padding: 5px;
+        background: #1e90ff;
+        margin: 0;
+        /* auto;*/
+        text-align: center;
+        color: #fff;
+    }
+    
+    .vjan,
+    .vfev,
+    .vmar,
+    .vabr,
+    .vmai,
+    .vjun,
+    .vjul,
+    .vago,
+    .vset,
+    .vout,
+    .vnov,
+    .vdez {
+        box-align: left;
+        width: 100px;
+        padding: 5px;
+        background: #1e90ff;
+        margin: 0;
+        /* auto;*/
+        text-align: center;
+        color: #fff;
+    }
+    /* .vpoli1, .vpoli2, .vpoli3, .vpoli4, .vpoli5, .vpoli6, .vpoli7, 	.vpoli8, .vpoli9, .vpoli10,	.vpoli11, .vpoli12,	.vpoli13, .vpoli14{
+    box-align: left;
+    width: 100%;
+    padding: 5px;
+    background:#61b967;
+    margin: 0;auto;
+    text-align: left;
+    color:#fff;
+} */
+    
+    .vpoli1,
+    .vpoli2,
+    .vpoli3,
+    .vpoli4,
+    .vpoli5,
+    .vpoli6,
+    .vpoli7,
+    .vpoli8,
+    .vpoli9,
+    .vpoli10,
+    .vpoli11,
+    .vpoli12,
+    .vpoli13,
+    .vpoli14 {
+        box-align: left;
+        width: 400px;
+        padding: 5px;
+        background: #2fdb3a;
+        margin: 0;
+        /* auto;*/
+        text-align: left;
+        color: #fff;
+    }
+    /* .vpoli1a, .vpoli2a{
+    box-align: left;
+    width: 400px;
+    padding: 5px;
+    background:#72f37b;
+    margin: 0;auto;
+    text-align: left;
+    color:#fff;
+} */
+    
+    .porce {
+        /* width: 400px; */
+        /* padding: 5px; */
+        margin: 0;
+        /* auto;*/
+        text-align: center;
+        /* color:#fff; */
+        font-size: 50px;
+    }
+    
+    .cmqcorp,
+    .cpccorp,
+    .cnbcorp,
+    .ctbcorp,
+    .caiocorp,
+    .cmbcorp,
+    .cw10corp,
+    .cw7corp,
+    .cw8corp,
+    .cwecorp,
+    .cwxpcorp,
+    .cmxcorp {
+        cursor: pointer;
+    }
+    
+    .vmqcorp,
+    .vpccorp,
+    .vnbcorp,
+    .vtbcorp,
+    .vaiocorp,
+    .vmbcorp,
+    .vw10corp,
+    .vw7corp,
+    .vw8corp,
+    .vwecorp,
+    .vwxpcorp,
+    .vmxcorp {
+        box-align: left;
+        /* width: 150px; */
+        width: 220px;
+        padding: 5px;
+        background: #60baf7;
+        margin: 0;
+        /* auto;*/
+        text-align: center;
+        color: #fff;
+    }
+    
+    .cmqbot,
+    .cpcbot,
+    .cnbbot,
+    .ctbbot,
+    .caiobot,
+    .cmbbot,
+    .cw10bot,
+    .cw7bot,
+    .cw8bot,
+    .cwebot,
+    .cwxpbot,
+    .cmxbot {
+        cursor: pointer;
+    }
+    
+    .vmqbot,
+    .vpcbot,
+    .vnbbot,
+    .vtbbot,
+    .vaiobot,
+    .vmbbot,
+    .vw10bot,
+    .vw7bot,
+    .vw8bot,
+    .vwebot,
+    .vwxpbot,
+    .vmxbot {
+        box-align: left;
+        /* width: 150px; */
+        width: 220px;
+        padding: 5px;
+        background: #60baf7;
+        margin: 0;
+        /* auto;*/
+        text-align: center;
+        color: #fff;
+    }
+    
+    .cmqeleb,
+    .cpceleb,
+    .cnbeleb,
+    .ctbeleb,
+    .caioeleb,
+    .cmbeleb,
+    .cw10eleb,
+    .cw7eleb,
+    .cw8eleb,
+    .cweeleb,
+    .cwxpeleb,
+    .cmxeleb {
+        cursor: pointer;
+    }
+    
+    .vmqeleb,
+    .vpceleb,
+    .vnbeleb,
+    .vtbeleb,
+    .vaioeleb,
+    .vmbeleb,
+    .vw10eleb,
+    .vw7eleb,
+    .vw8eleb,
+    .vweeleb,
+    .vwxpeleb,
+    .vmxeleb {
+        box-align: left;
+        /* width: 150px; */
+        width: 220px;
+        padding: 5px;
+        background: #60baf7;
+        margin: 0;
+        /* auto;*/
+        text-align: center;
+        color: #fff;
+    }
+    
+    .cpcevo,
+    .cpclbg,
+    .cpcbjs,
+    .cpcsin {
+        cursor: pointer;
+    }
+    
+    .vpcevo,
+    .vpclbg,
+    .vpcbjs,
+    .vpcsin {
+        box-align: left;
+        /* width: 150px; */
+        width: 220px;
+        padding: 5px;
+        background: #60baf7;
+        margin: 0;
+        /* auto;*/
+        text-align: center;
+        color: #fff;
+    }
+    
+    .ctmqcorp {
+        cursor: pointer;
+    }
+    /* Pagina Menu */
+    
+    .bmenu {
+        font: 14px;
+        color: #fff;
+        /* background-color: #677286; */
+        /* background-color: rgb(121, 117, 117); */
+        /* font-family: 'Courier New', Courier, monospace; */
+        /* font-family: 'Times New Roman', Times, serif; */
+        /* font-family: Arial, Helvetica, sans-serif; */
+        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+        /* font-weight: bold; */
+    }
+    
+    .trec {
+        /* text-shadow: white 0.1em 0.1em 0.2em; */
+        /* color: #2fdb3a; */
+        cursor: pointer;
+        /* border-style: double; */
+        /* border-color: #1e90ff; */
+    }
+    
+    a {
+        /* color: #fdfeff;
+        size: 10px;
+        box-align: left;
+        width: 220px;
+        padding: 5px;
+        background: #60baf7;
+        margin: 0; */
+        width: 200px;
+        padding: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        /* font-size: 15px; */
+        background: #3366cc;
+        color: #fff;
+        border: 1px solid #3366cc;
+        border-radius: 100px;
+    }

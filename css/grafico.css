@@ -1,0 +1,27 @@
+body {
+    font: 14px;
+    /* color: #fff; */
+    /* background-color: #677286; */
+    background-color: rgb(255, 255, 255);
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;     */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-weight: bold; */
+}
+
+.select {
+    cursor: pointer;
+}
+
+.tt {
+    /* Color: rgb(0, 0, 0); */
+    background-color: rgba(173, 168, 168, 0.4);
+    background-size: 1px;
+    font-size: 30px;
+}
+
+.tipo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
