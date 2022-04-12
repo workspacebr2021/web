@@ -12,7 +12,7 @@
     <style>
         body {padding: 120px}
     </style>
-     
+     <a href="quest.html" class="btn btn-primary btn-lg">Questoes</p></a> 
     <div class="card shadow p-5" style="width: 1200px">
         <div class="card-body">
           <div class="text-left mb-5">
