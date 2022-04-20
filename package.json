@@ -5,7 +5,6 @@
   "engines": {
     "node": "16.x"
   },
-  "main": "main.html",
   "scripts": {
     "start": "nodemon server.js"    
   },
