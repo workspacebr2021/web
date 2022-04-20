@@ -5,7 +5,8 @@ const lineCount = require("./Querys/lineCount")
 const express = require('express')
 const cors = require("cors")
 const app = express()
-// const port = 443
+const PORT = process.env.PORT || 3000;
+
 
 app.use(cors())
 app.use(express.json())
@@ -34,3 +35,7 @@ app.get('/count/:valor', async (req, res) => {
 // app.listen(port, () => {
 //     console.log(`Listening on port ${port}`)
 // })
+
+app.listen(PORT, () => {
+    console.log(`Our app is running on port ${ PORT }`);
+});
