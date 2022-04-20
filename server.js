@@ -1,7 +1,7 @@
 
 // const insertAtivo = require("./db")
-const findByAtivo = require("./Querys/findByAtivo")
-const lineCount = require("./Querys/lineCount")
+const findByAtivo = require("./querys/findByAtivo")
+const lineCount = require("./querys/lineCount")
 const express = require('express')
 const cors = require("cors")
 const app = express()
@@ -10,11 +10,6 @@ const PORT = process.env.PORT || 3000;
 
 app.use(cors())
 app.use(express.json())
-
-
-app.get('/', async (req, res) => {
-    res.render('mainPage/main.ejs')
-})
 
 app.get('/ativo/:ativo', async (req, res) => {
     const { ativo } = req.params
@@ -37,8 +32,8 @@ app.get('/count/:valor', async (req, res) => {
 //     return res.json(result)
 // })
 
-// app.listen(port, () => {
-//     console.log(`Listening on port ${port}`)
-// })
+app.get('/', async (req, res) => {
+    res.render('mainPage/main.ejs')
+})
 
 app.listen(PORT, () => console.log(`Listening on ${ PORT }`))

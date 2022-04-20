@@ -4,7 +4,7 @@ async function connect() {
 
     const mysql = require("mysql2/promise");
     const connection = await mysql.createConnection("mysql://admin:Qwe123123qwe@workspace.cd77ovbthozc.sa-east-1.rds.amazonaws.com:3306/embraer_workspace");
-    console.log("MySQL connected sucessfuly");
+    console.log("MySQL connected successfully");
     global.connection = connection;
     return connection;
 }
