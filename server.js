@@ -13,14 +13,14 @@ app.use(express.json())
 app.get('/ativo/:ativo', async (req, res) => {
     const { ativo } = req.params
     const result = await findByAtivo(ativo)
-    console.log(result)
+    // console.log(result)
     return res.json(result)
 })
 
 app.get('/count/:valor', async (req, res) => {
     const { valor } = req.params
     const result = await lineCount(valor)
-    console.log(result)
+    // console.log(result)
     return res.json(result)
 })
 
