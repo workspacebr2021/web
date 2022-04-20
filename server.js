@@ -11,8 +11,10 @@ const PORT = process.env.PORT || 3000;
 app.use(cors())
 app.use(express.json())
 
-app.set('view engine', 'html')
-app.get('/', async (req, res) => res.render('mainPage/main'))
+
+app.get('/', async (req, res) => {
+    res.render('mainPage/main.ejs')
+})
 
 app.get('/ativo/:ativo', async (req, res) => {
     const { ativo } = req.params
