@@ -5,7 +5,7 @@ const lineCount = require("./Querys/lineCount")
 const express = require('express')
 const cors = require("cors")
 const app = express()
-const port = 80
+const port = 443
 
 app.use(cors())
 app.use(express.json())
